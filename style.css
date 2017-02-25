@@ -1,0 +1,93 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+	font-size: 14px;
+	background: paleturquoise;
+	padding: 140px 90px;
+}
+
+/*HEADER*/
+header {
+position:relative;
+margin-bottom: 38px;
+}
+.welcome {
+	background: #fff;
+	padding: 14px 24px;
+	position:absolute;
+	top: 0;
+}
+.profile {
+	text-align: center;
+	color: #fff;
+}
+.profile p {
+	text-transform: uppercase;
+}
+.profile img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+/*.circle {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	-webkit-clip-path: circle(50% at 50% 50%);
+	clip-path: circle(50% at 50% 50%);
+}*/
+
+/*FORM*/
+.container {
+	background: #fff;
+	padding: 45px 33px;
+	border: 1px solid #000;
+}
+.row {
+	border-bottom: 1.5px solid #000;
+	padding-bottom: 20px;
+}
+.row p {
+	text-align: left;
+}
+.policy {
+	text-align: center;
+}
+fieldset {
+	border: none;
+}
+.rate {
+	text-align:center;
+}
+.control-group {
+	display:inline-block;
+	text-align:center;
+	/*margin-right: 20px;*/
+}
+.emoji-group {
+	padding: 20px;
+	position:relative;
+}
+.emoji-group input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+.selected-bg {
+	background: #bdbdbd;
+	border: 1px solid black;
+}
+.picked{
+	fill: #FFDE17;
+}
+.blue {
+	color:blue;
+}
+input[type="submit"] {
+	border:none;
+	border-radius: 5px;
+	text-align: center;
+	background: black;
+	color: #FFF;
+	padding: 8px 20px;
+}

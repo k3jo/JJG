@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<!-- stylesheets -->
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<title>Form</title>
+<body>
+	<header>
+		<div class="profile">
+<!-- 			<div class="circle"> -->
+				<img src="images/placeholder.jpg" alt="profile picture">
+				
+<!-- 			</div> -->
+			<h1>Joe Smith</h1>
+			<p>Line Cook for Boston Pizza</p>
+		</div>
+		<div class="welcome">
+			<p><strong>Welcome Back!</strong></p>
+			<p>Evan Brown</p>
+		</div>
+	</header>
+
+	<!-- Form Starts -->
+	<div class="container">
+		<div class="row">
+			<p>Please rate the employee's <strong>punctuality</strong> record for the previous month:</p>
+			<fieldset class="rate">
+				<div class="control-group">
+					<label>
+						<div class="emoji-group">
+							<input name="punctuality" type="radio" value="1">
+							<!-- <img src="images/v-unhappy.svg" alt="Very Unhappy"> -->
+							<svg xmlns="http://www.w3.org/2000/svg" width="82" height="82" viewBox="0 0 81.6 81.6"><style>.a{fill:#FFF;}</style><rect width="81.6" height="81.6" fill="#58595B" /><path d="M33.5 30.9c0 3.4-2.8 6.2-6.2 6.2l0 0c-3.4 0-6.2-2.8-6.2-6.2l0 0c0-3.4 2.8-6.2 6.2-6.2l0 0C30.7 24.7 33.5 27.5 33.5 30.9L33.5 30.9z" class="a"/><path d="M59.3 30.9c0 3.4-2.8 6.2-6.2 6.2l0 0c-3.4 0-6.2-2.8-6.2-6.2l0 0c0-3.4 2.8-6.2 6.2-6.2l0 0C56.5 24.7 59.3 27.5 59.3 30.9L59.3 30.9z" class="a"/><path d="M64 62.6c-4.3-5.3-12.4-8.9-21.8-8.9s-17.5 3.6-21.8 8.9h-3.3c0.1-9.4 11.3-17.1 25.1-17.1 13.8 0 24.9 7.6 25 17.1H64z" class="a"/></svg>					
+						</div>
+						Very Unhappy
+					</label>
+				</div>
+				<div class="control-group">
+					<label>
+						<div class="emoji-group">
+							<input name="punctuality" type="radio" value="2">
+							<!-- <img src="images/unhappy.svg" alt="Unhappy"> -->
+							<svg xmlns="http://www.w3.org/2000/svg" width="82" height="82" viewBox="0 0 81.6 81.6"><style>.a{fill:#FFF;}</style><rect width="81.6" height="81.6" fill="#58595B" /><path d="M33.5 29.9c0 3.4-2.8 6.2-6.2 6.2l0 0c-3.4 0-6.2-2.8-6.2-6.2l0 0c0-3.4 2.8-6.2 6.2-6.2l0 0C30.7 23.7 33.5 26.5 33.5 29.9L33.5 29.9z" class="a"/><path d="M59.3 29.9c0 3.4-2.8 6.2-6.2 6.2l0 0c-3.4 0-6.2-2.8-6.2-6.2l0 0c0-3.4 2.8-6.2 6.2-6.2l0 0C56.5 23.7 59.3 26.5 59.3 29.9L59.3 29.9z" class="a"/><rect x="37" y="27.7" transform="matrix(0.1681 0.9858 -0.9858 0.1681 85.7973 4.53)" width="6.5" height="50.8" class="a"/></svg>
+						</div>
+						Unhappy
+					</label>
+				</div>
+				<div class="control-group">
+					<label>
+						<div class="emoji-group">
+							<input name="punctuality" type="radio" value="3">
+							<!-- <img src="images/neutral.svg" alt="Neutral"> -->
+							<svg xmlns="http://www.w3.org/2000/svg" width="82" height="82" viewBox="0 0 82 82"><style>.a{fill:#FFF;}</style><rect width="82" height="82" fill="#58595B" /><path d="M33 29.2c0 4-3.3 7.3-7.3 7.3l0 0c-4 0-7.3-3.3-7.3-7.3l0 0c0-4 3.3-7.3 7.3-7.3l0 0C29.6 22 33 25.2 33 29.2L33 29.2z" class="a"/><path d="M63.4 29.2c0 4-3.3 7.3-7.3 7.3l0 0c-4 0-7.3-3.3-7.3-7.3l0 0c0-4 3.3-7.3 7.3-7.3l0 0C60.2 22 63.4 25.2 63.4 29.2L63.4 29.2z" class="a"/><rect x="18.4" y="55.9" width="45.1" height="7.7" class="a"/></svg>
+						</div>
+						Neutral
+					</label>
+				</div>
+				<div class="control-group">
+					<label>
+						<div class="emoji-group">
+						<input name="punctuality" type="radio" value="4">
+							<!-- <img src="images/happy.svg" alt="happy"> -->
+							<svg xmlns="http://www.w3.org/2000/svg" width="82" height="82" viewBox="0 0 81.6 81.6"><style>.a{fill:#FFF;}</style><rect width="81.6" height="81.6" fill="#58595B" /><path d="M62.6 49.8c-4.3 5.3-12.4 8.9-21.8 8.9s-17.5-3.6-21.8-8.9h-3.3c0.1 9.4 11.3 17.1 25.1 17.1 13.8 0 24.9-7.6 25.1-17.1H62.6z" class="a"/><path d="M34.1 30.9c0 3.4-2.8 6.2-6.2 6.2l0 0c-3.4 0-6.2-2.8-6.2-6.2l0 0c0-3.4 2.8-6.2 6.2-6.2l0 0C31.3 24.7 34.1 27.5 34.1 30.9L34.1 30.9z" class="a"/><path d="M59.9 30.9c0 3.4-2.8 6.2-6.2 6.2l0 0c-3.4 0-6.2-2.8-6.2-6.2l0 0c0-3.4 2.8-6.2 6.2-6.2l0 0C57.1 24.7 59.9 27.5 59.9 30.9L59.9 30.9z" class="a"/></svg>
+						</div>
+						Happy
+					</label>
+				</div>
+				<div class="control-group">
+					<label>
+						<div class="emoji-group">
+							<input name="punctuality" type="radio" value="5">
+							<!-- <img src="images/v-happy.svg" alt="Very happy"> -->
+							<svg xmlns="http://www.w3.org/2000/svg" width="82" height="82" viewBox="0 0 81.6 81.6"><style>.a{fill:#FFF;}</style><rect width="81.6" height="81.6" fill="#58595B" /><path d="M34.1 30.9c0 3.4-2.8 6.2-6.2 6.2l0 0c-3.4 0-6.2-2.8-6.2-6.2l0 0c0-3.4 2.8-6.2 6.2-6.2l0 0C31.3 24.7 34.1 27.5 34.1 30.9L34.1 30.9z" class="a"/><path d="M59.9 30.9c0 3.4-2.8 6.2-6.2 6.2l0 0c-3.4 0-6.2-2.8-6.2-6.2l0 0c0-3.4 2.8-6.2 6.2-6.2l0 0C57.1 24.7 59.9 27.5 59.9 30.9L59.9 30.9z" class="a"/><path d="M63.6 49.8c-4.4 3.6-12.9 4.3-22.8 4.3 -9.9 0-18.4-0.7-22.8-4.3H15.3c-0.3 1.2-0.6 2.5-0.6 3.8 0 11.5 11.7 20.8 26.1 20.8 14.4 0 26.1-9.3 26.1-20.8 0-1.3-0.2-2.5-0.5-3.8H63.6z" class="a"/></svg>
+						</div>
+						Very Happy
+					</label>
+				</div>
+			</fieldset>
+		</div>
+
+		<div class="row">
+			<fieldset>
+				<p>Is the employee still working at Boston Pizza? (default setting is "yes")</p>
+				<select name="employed" id="">
+					<option value="1" selected="selected">Yes</option>
+					<option value="2">No, resigned with notice</option>
+					<option value="3">No, terminated without cause</option>
+					<option value="4">No, resigned without notice</option>
+					<option value="5">No, terminated with cause</option>
+				</select>
+			</fieldset>
+		</div>
+		<div class="row policy">
+			<p>
+				We, 2FF Technologies, collect responses so that the employee above can receive regular feedback on their
+				job performance. Your manager may review and modify your responses before the employee above will
+				receive these ratings and comments. We will not distribute your individual information to third parties.
+				IP addresses will not be stored.
+			</p>
+			<input type="submit">
+		</div>
+	</div> <!-- container -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<!-- main script -->
+	<script src="main.js"></script>
+	
+</body>
+</html>

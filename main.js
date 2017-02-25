@@ -1,16 +1,16 @@
 $(document).ready(function(){
 
 
-console.log('first');
 
 	$('label').on('click', function(){
 		$('.emoji-group').removeClass('selected-bg');
 		$(this).find('.emoji-group').addClass('selected-bg');
 	});
 
-	console.log("hi there");
-
-
+	$('label').on('click', function(){
+		$('svg .picked').css('fill', '#58595B');
+		$(this).find('.picked').css('fill', '#FFDE17');
+	});
 
 
 });

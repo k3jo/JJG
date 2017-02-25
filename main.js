@@ -1,22 +1,16 @@
 $(document).ready(function(){
 
 
-	// $('label').on('click', function(){
-	// 	$(this).addClass(selected-bg);
-	// });
+console.log('first');
 
-	// $('label').on('click', function(){
-	// 	var checkBox = $('label').find('.emoji-group');
-	// 	$('label').removeClass('.selected-bg');
-	// 	checkBox.toggleClass(".selected-bg");
-	// });
+	$('label').on('click', function(){
+		$('.emoji-group').removeClass('selected-bg');
+		$(this).find('.emoji-group').addClass('selected-bg');
+	});
 
+	console.log("hi there");
 
 
-
-	// $('label').on('click', function(){
-	// 	$('svg').toggleClass('picked');
-	// });
 
 
 });

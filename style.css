@@ -4,6 +4,13 @@ body {
 	font-size: 14px;
 	background: paleturquoise;
 	padding: 140px 90px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#92d4d5+0,19b4c2+100 */
+	background: rgb(146,212,213); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(146,212,213,1) 0%, rgba(25,180,194,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(146,212,213,1) 0%,rgba(25,180,194,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(146,212,213,1) 0%,rgba(25,180,194,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#92d4d5', endColorstr='#19b4c2',GradientType=0 ); /* IE6-9 */
+
 }
 
 /*HEADER*/
@@ -55,10 +62,11 @@ margin-bottom: 38px;
 }
 fieldset {
 	border: none;
+	text-align: center;
 }
-.rate {
+/*.rate {
 	text-align:center;
-}
+}*/
 .control-group {
 	display:inline-block;
 	text-align:center;
@@ -72,6 +80,10 @@ fieldset {
 	position: absolute;
 	z-index: -1;
 	opacity: 0;
+}
+svg {
+	width: 60px;
+	height: 60px;
 }
 .selected-bg {
 	background: #bdbdbd;

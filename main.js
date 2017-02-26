@@ -1,7 +1,5 @@
 $(document).ready(function(){
 
-
-
 	$('label').on('click', function(){
 		var groupClass = $(this).attr('class');
 		$('.' + groupClass + ' .emoji-group').removeClass('selected-bg');
@@ -17,5 +15,17 @@ $(document).ready(function(){
 		$(this).find('.picked').css('fill', '#FFDE17');
 	});
 
-
 });
+
+function check_info(){
+	var punctuality = document.getElementbyId('punctuality').value;
+
+
+	if (punctuality === unchecked ){
+		alert('Please provide an answer for all fields');
+		return false
+	}
+	else{
+		return true;
+	}
+}

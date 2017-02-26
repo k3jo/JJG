@@ -17,15 +17,4 @@ $(document).ready(function(){
 
 });
 
-function check_info(){
-	var punctuality = document.getElementbyId('punctuality').value;
 
-
-	if (punctuality === unchecked ){
-		alert('Please provide an answer for all fields');
-		return false
-	}
-	else{
-		return true;
-	}
-}

@@ -23,6 +23,9 @@ margin-bottom: 38px;
 	position:absolute;
 	top: 0;
 }
+.welcome p {
+	margin: 0;
+}
 .profile {
 	text-align: center;
 	color: #fff;
@@ -76,6 +79,10 @@ fieldset {
 svg {
 	width: 60px;
 	height: 60px;
+}
+.picked:hover {
+	fill: #FFDE17 !important;
+	transition: all 0.5s;
 }
 .selected-bg {
 	background: lightgray;

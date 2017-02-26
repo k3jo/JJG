@@ -80,7 +80,8 @@ svg {
 	width: 60px;
 	height: 60px;
 }
-.picked:hover {
+.picked:hover,
+.picked:focus {
 	fill: #FFDE17 !important;
 	transition: all 0.5s;
 }

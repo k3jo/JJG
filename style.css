@@ -1,33 +1,36 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.5;
-	font-size: 16px;
-	background: paleturquoise;
-	padding: 140px 90px;
-	background: rgb(146,212,213); /* Old browsers */
+	font-size: 14px;
+	padding: 25px 90px;
+	/*background: rgb(146,212,213); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(146,212,213,1) 0%, rgba(25,180,194,1) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top,  rgba(146,212,213,1) 0%,rgba(25,180,194,1) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom,  rgba(146,212,213,1) 0%,rgba(25,180,194,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#92d4d5', endColorstr='#19b4c2',GradientType=0 ); /* IE6-9 */
-
+	*//*background: white;*/
 }
 
 /*HEADER*/
 header {
-position:relative;
-margin-bottom: 38px;
+margin-bottom: 10px;
 }
 .welcome {
-	background: #fff;
 	padding: 14px 24px;
-	position:absolute;
+	float:left;
 	top: 0;
+	border: 1px solid black;
 }
 .welcome p {
 	margin: 0;
 }
+h1 {
+	color: black;
+	align:right;
+	float:right;
+}
 .profile {
-	text-align: center;
+	text-align: right;
 	color: #fff;
 }
 .profile p {
@@ -42,18 +45,24 @@ margin-bottom: 38px;
 /*FORM*/
 .container {
 	background: #fff;
-	padding: 45px 33px;
-	border: 1px solid #AFEEEE;
+	padding: 10px 20px;
+	border: 1px solid gray;
 }
 .row {
 	border-bottom: 1.5px solid #000;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
+}
+.container > .row:last-child {
+	border-bottom: none;
 }
 .row p {
 	text-align: left;
 }
 .policy {
 	text-align: center;
+}
+.policy p {
+	font-size: 12px;
 }
 fieldset {
 	border: none;
@@ -68,7 +77,7 @@ fieldset {
 	text-align:center;
 }
 .emoji-group {
-	padding: 20px;
+	padding: 5px 20px;
 	position:relative;
 }
 .emoji-group input {
@@ -76,9 +85,12 @@ fieldset {
 	z-index: -1;
 	opacity: 0;
 }
+label {
+	font-size: 12px;
+}
 svg {
-	width: 60px;
-	height: 60px;
+	width: 40px;
+	height: 40px;
 }
 .picked:hover,
 .picked:focus {
@@ -103,6 +115,7 @@ input[type="submit"] {
 textarea {
 	width: 100%;
 }
+/*SUBMISSION PAGE*/
 #submission {
 	height: 100vh;
 }
@@ -110,6 +123,7 @@ textarea {
 	color: #FFF;
 }
 
+/*RESPONSIVE*/
 @media (max-width: 800px) {
 	body {
 		padding: 30px;

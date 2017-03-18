@@ -1,0 +1,28 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+	font-size: 14px;
+	padding: 25px 90px;
+}
+div {
+	padding: 15px;
+}
+.left {
+	float:left;
+	border: 1px solid gray;
+	width: 50%;
+}
+.right {
+	float:right;
+	width: 50%;
+	border: 1px solid gray;
+	background: papayawhip;
+}
+.info {
+
+}
+footer {
+	clear: both;
+	text-align: center;
+	border: 1px solid gray;
+}

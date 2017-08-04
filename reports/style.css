@@ -1,28 +1,92 @@
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.5;
 	font-size: 14px;
-	padding: 25px 90px;
+	padding: 30px 0;
+	color: #708090;
 }
-div {
-	padding: 15px;
+h4 {
+	margin: 0;
 }
-.left {
-	float:left;
+h1 {
+	margin-bottom: 50px;
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	max-width: 1000px;
 	border: 1px solid gray;
-	width: 50%;
+}
+.wrapper .table{
+	display: table;
 }
 .right {
-	float:right;
-	width: 50%;
-	border: 1px solid gray;
-	background: papayawhip;
+	background: rgb(215, 242, 215);
 }
-.info {
+.left,
+.right {
+	display: table-cell;
+	width: 49%;
+}
+.container,
+.impact {
+	padding: 30px;
+}
+.account {
+	margin-bottom: 150px;
+}
+.account p {
+	margin: 0;
+}
+img {
+	width: 100%;
+}
 
+.impact {
+	background: #D3D3D3;
+	color: #708090;
+}
+.impact h3,
+.info h3 {
+	margin-top: 0;
+}
+ol {
+	margin-bottom: 100px;
+}
+.download {
+	text-align:center;
+	margin: 30px 0;
+}
+button {
+	background: #D3D3D3;
+	color: #000;
+	border: none;
+	text-align:center;
+	padding: 8px 15px;
+	border-radius: 5px;
 }
 footer {
 	clear: both;
-	text-align: center;
-	border: 1px solid gray;
 }
+
+@media (max-width: 767px) {
+	.container {
+		display:block;
+	}
+	.left,
+	.right {
+		display:block;
+		width: 100%;
+	}
+}
+@media print {
+	.impact {
+		background: #fff;
+	}
+	.right {
+		background: #fff;
+		border-left: 1px solid gray;
+	}
+}
+
